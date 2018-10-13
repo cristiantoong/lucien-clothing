@@ -1,0 +1,113 @@
+@import 'header.css';
+@import 'navigation.css';
+@import 'arrivals.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+/*---------------------------------Media Query------------------*/
+
+@media screen and (max-width: 960px){
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    height: auto;
+  }
+  .header-models {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;;
+  }
+
+  .header-models .male-model-desc{
+    order: 6;
+  }
+  .male-model {
+    width: 100%;
+  }
+  .female-model {
+    width: 100%;
+  }
+
+  #arrivals {
+    width: 100%;
+    height: auto;
+  }
+
+  #arrivals .arrivals-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; 
+  }
+  #arrivals .arrivals-gallery .arrival-1 {
+    flex: 0 0 360px;
+  }
+  #arrivals .arrivals-gallery .arrival-3 {
+    flex: 0 0 360px;
+    margin-top: 150px;
+  }
+  .female-model-desc,  .male-model-desc {
+    padding: 25px 10px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  #arrivals .arrivals-gallery .arrival-2 {
+    flex: 0 0 360px;
+    margin-top: 150px;
+  }
+
+  #arrivals .arrivals-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .female-model-desc,  .male-model-desc {
+    padding: 25px 10px;
+    text-align: center;
+  }
+
+  .header-models .male-model-desc{
+    order: 6;
+  }
+
+  #arrivals {
+    width: 100%!important;
+    padding: 0;
+  }
+  .arrival-1, .arrival-2, .arrival-3 {
+    flex: 0 0 100%!important;
+  }
+
+  .female-model, .male-model {
+    width: 100%;
+  }
+}
