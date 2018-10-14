@@ -2,7 +2,7 @@
 .header {
   width: 100%;
   margin: 0 auto;
-  height: 102vh;
+  height: 100vh;
 }
 .header-models {
   width: 100%;
@@ -19,7 +19,7 @@
 .female-model {
   background: url(../img/female.jpg) center/cover no-repeat;
   width: 570px;
-  height: 490px
+  height: 446px;
 }
 
 .female-model-desc {
@@ -59,7 +59,7 @@
 .male-model {
   background: url(../img/male.jpg) center/cover no-repeat;
   width: 570px;
-  height: 490px
+  height: 446px;
 }
 
 .male-model-desc {
