@@ -1,13 +1,18 @@
 #arrivals {
   width: 1139px;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
 }
+
+#arrivals .inner-arrivals {
+    height: 100%;
+  }
 
 #arrivals .title {
   margin: 0 auto;
   width: 40%;
   padding: 40px 0;
+
 
 }
 
@@ -22,6 +27,7 @@
 .arrivals-gallery {
   display: flex;
   justify-content: space-between;
+  height: 100%;
 }
 
 /* -----------------arrival 1------------------ */
@@ -101,7 +107,7 @@
 .arrivals-gallery .arrival-1:hover .overlay-1 {
   opacity: 1;
   transition: all .5s ease-in-out;
-
+  z-index: 1;
 }
 .arrivals-gallery .arrival-1:hover .arrival-desc-1 {
   opacity: 0;
@@ -118,6 +124,7 @@
   width: 360px;
   height: 420px;
   position: relative;
+
 }
 .arrivals-gallery .arrival-img2 {
   background: url(../img/men/m6.jpg) center/100% no-repeat;
@@ -189,7 +196,7 @@
 .arrivals-gallery .arrival-2:hover .overlay-2 {
   opacity: 1;
   transition: all .5s ease-in-out;
-
+  z-index: 1;
 }
 .arrivals-gallery .arrival-2:hover .arrival-desc-2 {
   opacity: 0;
@@ -415,14 +422,3 @@
 .promotions .promotions-form .submit-btn:hover {
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-

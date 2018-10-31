@@ -59,8 +59,10 @@ a {
 
   #arrivals {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
+
+  
 
   #arrivals .arrivals-gallery {
     display: flex;
@@ -84,6 +86,8 @@ a {
     margin-top: 20px;
     background: #fff;
   }
+
+
 
   #others .other-stuff {
     display: flex;
