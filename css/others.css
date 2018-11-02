@@ -4,8 +4,12 @@
   display: flex;
   justify-content: center;
   padding: 60px 0;
-  margin-top: 25px;
+  margin-top: 95px;
 }
+
+#others .inner-others {
+    height: 100%;
+  }
 
 .other-stuff {
   width: 1139px;
@@ -46,7 +50,7 @@
 }
 
 #others .other-stuff .fashion-link {
-  background: url(../img/women/f2.jpg) center/cover no-repeat; */
+  background: url(../img/women/f2.jpg) center/cover no-repeat;
   height: 425px;
   flex: 0 0 507px;
   position: relative;
