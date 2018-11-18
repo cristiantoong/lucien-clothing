@@ -70,6 +70,7 @@
 
 .arrivals-gallery .overlay-1 {
   width: 100%;
+  height: 114px;
   background: #d6cdcb;
   text-align: center;
   padding: 44px 112px;
@@ -81,7 +82,7 @@
   opacity: 0;
   
 }
-.arrivals-gallery .overlay-1 a{
+.arrivals-gallery .overlay-1 p{
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
@@ -160,6 +161,7 @@
 
 .arrivals-gallery .overlay-2 {
   width: 100%;
+  height: 114px;
   background: #d6cdcb;
   text-align: center;
   padding: 44px 112px;
@@ -171,7 +173,7 @@
   opacity: 0;
   
 }
-.arrivals-gallery .overlay-2 a{
+.arrivals-gallery .overlay-2 p{
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
@@ -249,6 +251,7 @@
 
 .arrivals-gallery .overlay-3 {
   width: 100%;
+  height: 114px;
   background: #d6cdcb;
   text-align: center;
   padding: 44px 112px;
@@ -260,7 +263,7 @@
   opacity: 0;
   
 }
-.arrivals-gallery .overlay-3 a{
+.arrivals-gallery .overlay-3 p{
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
@@ -286,7 +289,7 @@
 .arrivals-gallery .arrival-3:hover .overlay-3 {
   opacity: 1;
   transition: all .5s ease-in-out;
-
+  z-index: 1;
 }
 .arrivals-gallery .arrival-3:hover .arrival-desc-3 {
   opacity: 0;
@@ -299,7 +302,7 @@
 }
 /* -----------------Animation in text overlay------------------*/
 /* arrival 1 */
-.arrivals-gallery .arrival-1:hover .overlay-1 a {
+.arrivals-gallery .arrival-1:hover .overlay-1 p {
   animation: fadein 2s ease; 
   animation-duration: 1s;
   opacity: 1;
@@ -319,7 +322,7 @@
 }
 
 /* arrival 2 */
-.arrivals-gallery .arrival-2:hover .overlay-2 a {
+.arrivals-gallery .arrival-2:hover .overlay-2 p {
   animation: fadein 2s ease; 
   animation-duration: 1s;
   opacity: 1;
@@ -340,7 +343,7 @@
 
 
 /* arrival 3 */
-.arrivals-gallery .arrival-3:hover .overlay-3 a {
+.arrivals-gallery .arrival-3:hover .overlay-3 p {
   animation: fadein 2s ease; 
   animation-duration: 1s;
   opacity: 1;
